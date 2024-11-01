@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link-hover {
+    @apply hover:text-purple-600;
+}
+.border-red {
+    @apply border-2 border-red-500;
+}
+.big-font {
+    @apply uppercase text-6xl font-serif text-orange-800
+}
+.lp-heading {
+    @apply uppercase text-2xl text-orange-700 font-medium mb-4 mt-8
+}
+.lp-subheading {
+    @apply text-xs text-gray-800 leading-relaxed tracking-wide
+}
+.lp-hr {
+    @apply h-px bg-gray-300 w-full my-2
+}
+.lp-highlight {
+    @apply text-orange-600 underline font-normal
+}
+.lp-hover-effect {
+    @apply transition-transform transform hover:scale-125
+}
